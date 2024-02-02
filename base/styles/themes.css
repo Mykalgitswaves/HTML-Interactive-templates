@@ -1,0 +1,199 @@
+/* themes.css stores the theme specific colors for each of the required vars */
+:root {
+    /* Colors */
+    /* Gray colors */
+    --grey-50: #f9fafb;
+    --grey-100: #f3f4f6;
+    --grey-200: #e5e7eb;
+    --grey-300: #d1d5db;
+    --grey-400: #9ca3af;
+    --grey-500: #6b7280;
+    --grey-600: #4b5563;
+    --grey-700: #374151;
+    --grey-800: #1f2937;
+    --grey-900: #111827;
+
+    /* Stone colors */
+    --stone-50: #fafaf9;
+    --stone-100: #f5f5f4;
+    --stone-200: #e5e5e5;
+    --stone-300: #d6d3d1;
+    --stone-400: #a8a29e;
+    --stone-500: #737373;
+    --stone-600: #525252;
+    --stone-700: #404040;
+    --stone-800: #262626;
+    --stone-900: #171717;
+    --stone-950: #0a0a0a;
+
+    /* Blue colors */
+    --blue-50: #eff6ff;
+    --blue-100: #dbeafe;
+    --blue-200: #bfdbfe;
+    --blue-300: #93c5fd;
+    --blue-400: #60a5fa;
+    --blue-500: #3b82f6;
+    --blue-600: #2563eb;
+    --blue-700: #1d4ed8;
+    --blue-800: #1e40af;
+    --blue-900: #1e3a8a;
+    /* End colors */
+
+    /* Red colors */
+    --red-50: #FFF1F1;
+    --red-100: #FFEBEE;
+    --red-200: #FFCDD2;
+    --red-300: #EF9A9A;
+    --red-400: #ce5f5f;
+    --red-500: #EF5350;
+    --red-600: #E53935;
+    --red-700: #871313;
+    --red-800: #260000;
+    /* End colors */
+
+    --radius-sm: 8px;
+    --radius-md: 14px;
+
+    --row-gap-sm: 12px;
+    --row-gap-md: 16px;
+    
+    --btn-padding-sm: 8px 16px;
+
+    --margin-shim-sm: 8px;
+
+    --padding-sm: 14px;
+    --padding-md: 20px;
+
+    --padding-card-sm: 12px;
+    
+    /* Shadows */
+    --shadow-lg: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
+
+    /* Transition effects */
+    --transition-short: all 150ms ease;
+
+    /* Text sizes */
+    --font-xs: 0.75rem;
+    --font-sm: 0.875rem;
+    --font-base: 1rem;
+    --font-lg: 1.125rem;
+    --font-xl: 1.2rem;
+    --font-2xl: 1.5rem;
+    --font-3xl: 2rem;
+    --font-4xl: 2.5rem;
+    --font-5xl: 3rem;
+    --font-6xl: 3.75rem;
+    --font-7xl: 4.5rem;
+    --font-8xl: 6rem;
+    --font-9xl: 8rem;
+
+    /* Line heights */
+    --line-xs: 1rem;
+    --line-sm: 1.5rem;
+    --line-base: 1.75rem;
+    --line-lg: 2rem;
+    --line-xl: 2rem;
+    --line-2xl: 2rem;
+    --line-3xl: 2.5rem;
+    --line-4xl: 3.5rem;
+    --line-5xl: 3.5rem;
+    --line-6xl: 1;
+    --line-7xl: 1;
+    --line-8xl: 1;
+    --line-9xl: 1;
+
+    /* Font styles */
+    --font-bold: bold;
+    --font-italic: italic;
+}
+
+html {
+    /* Description: White background with some darker text and hover features */
+    /* theme specific colors */
+    --surface-primary: #fff;
+    --surface-light-hover: var(--stone-500);
+    --surface-light: var(--stone-100);
+    --surface-med: var(--stone-200);
+    --surface-dark: var(--stone-300);
+    --surface-hover: var(--stone-400);
+
+    --text-primary: var(--stone-800);
+    --text-secondary: var(--stone-600);
+
+    --btn-bg: var(--stone-200);
+    --btn-text: var(--text-primary);
+    --border-primary: var(--stone-300);
+
+    --theme-surface-darkest: var(--blue-800);
+    --theme-surface-dark: var(--blue-600);
+    --theme-surface: var(--blue-300);
+    --theme-light: var(--blue-50);
+    /* End theme specific colors */
+}
+
+html[data-theme="dark"] {
+    /* Description: Dark background with lighter text */
+    /* blue colors */
+    --blue-100: #dae0f5;
+    --blue-200: #bdc8ed;
+    --blue-300: #99ace3;
+    --blue-400: #6b86d6;
+    --blue-500: #2c4ba7;
+    --blue-600: #132455;
+    --blue-700: #070d21;
+    --surface-primary: var(--stone-900);
+    --surface-light-hover: var(--stone-500);
+    --surface-light: var(--stone-900);
+    --surface-med: var(--stone-800);
+    --surface-dark: var(--stone-700);
+    --surface-hover: var(--stone-600);
+
+    --text-primary: var(--stone-200);
+    --text-secondary: var(--stone-400);
+
+    --btn-bg: var(--stone-800);
+    --btn-text: var(--text-primary);
+    --border-primary: var(--stone-700);
+
+    --theme-surface-darkest: var(--blue-100);
+    --theme-surface-dark: var(--blue-300);
+    --theme-surface: var(--blue-500);
+    --theme-light: var(--blue-700);
+}
+
+html[data-theme="light-cool"] {
+    /* Description: Light background with some blue tones */
+    --surface-primary: #fff;
+    --surface-light-hover: var(--blue-500);
+    --surface-light: var(--blue-100);
+    --surface-med: var(--blue-200);
+    --surface-dark: var(--grey-300);
+    --surface-hover: var(--grey-400);
+    --text-primary: var(--grey-800);
+    --text-secondary: var(--grey-600);
+    --btn-bg: var(--blue-300);
+    --btn-text: var(--text-primary);
+    --border-primary: var(--blue-300);
+    --theme-surface-darkest: var(--blue-800);
+    --theme-surface-dark: var(--blue-600);
+    --theme-surface: var(--blue-300);
+    --theme-light: var(--blue-50);
+}
+html[data-theme="light-warm"] {
+    /* Description: Light background with some red tones */
+    --surface-primary: #fff;
+    --surface-light-hover: var(--red-300);
+    --surface-light: var(--red-100);
+    --surface-med: var(--red-200);
+    --surface-dark: var(--grey-300);
+    --surface-hover: var(--red-400);
+    --text-primary: var(--red-800);
+    --text-secondary: var(--grey-600);
+    --btn-bg: var(--red-200);
+    --btn-text: var(--red-800);
+    --border-primary: var(--red-400);
+    --theme-surface-darkest: var(--red-800);
+    --theme-surface-dark: var(--red-600);
+    --theme-surface: var(--red-300);
+    --theme-light: var(--red-50);
+}

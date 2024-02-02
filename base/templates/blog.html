@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog</title>
+    <link rel="stylesheet" href="../styles/base.css">
+    <link rel="stylesheet" href="../styles/themes.css">
+    <link rel="stylesheet" href="../styles/condensed.css">
+</head>
+<body>
+    <!-- component -->
+    <nav class="nav-menu">
+        <label role="button" type="button" class="nav-menu-btn" for="nav-menu-btn">
+            <input
+                role="tab" 
+                aria-selected="true" 
+                aria-controls="tabpanel-id"
+                id="nav-menu-btn"
+                type="checkbox"
+            />
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" fill="currentColor">
+                <path d="M3 6.25a.75.75 0 0 1 .75-.75h13.5a.75.75 0 0 1 0 1.5H3.75A.75.75 0 0 1 3 6.25Zm5 6.063a.75.75 0 0 1 .75-.75h11.5a.75.75 0 0 1 0 1.5H8.75a.75.75 0 0 1-.75-.75Zm0 5.937a.75.75 0 0 1 .75-.75h11.5a.75.75 0 0 1 0 1.5H8.75a.75.75 0 0 1-.75-.75ZM3.75 11a.75.75 0 0 1 .75.75v7a.75.75 0 0 1-1.5 0v-7a.75.75 0 0 1 .75-.75Z"></path>
+            </svg>
+    
+            <div role="menu" class="nav-menu-sidebar">
+                <h3 class="n-m-s--header">Title</h3>
+                <div class="n-m-s--content">
+                    <button 
+                        role="navigation"
+                        class="n-m-s--li"
+                        alt="about"
+                        href="/about"
+                    >
+                        About
+                    </button>
+        
+                    <button 
+                        role="navigation"
+                        class="n-m-s--li"
+                        alt="process"
+                        href="/process"
+                    >
+                        Process
+                    </button>
+                    
+                    <button 
+                        role="navigation"
+                        class="n-m-s--li"
+                        alt="contact"
+                        href="/contact"
+                    >   
+                        Contact
+                    </button>
+                </div>
+            </div>
+        </label>
+    </nav>
+    <main>
+        <!-- component -->
+        <section class="blog-grid">
+            <div class="b-g-header">
+                <h1>Welcome to my thought catalogue</h1>
+                <p>Below is an assortment of relevant articles</p>
+            </div>
+            <ul class="b-g-list">
+                <li class="b-g-l-item">
+                    <img 
+                        class="b-g-l-image" 
+                        src="https://placehold.co/100x100" 
+                        alt=""
+                    >
+                    <div>
+                        <h3 class="b-g-l-title">A blog post</h3>
+                        <p class="b-g-l-description">Learn more about this blog post that i wrote...</p>
+                        <button class="btn b-g-l-btn">
+                            Read more
+                        </button>
+                    </div>
+                </li>
+                <li class="b-g-l-item">
+                    <img 
+                        class="b-g-l-image" 
+                        src="https://placehold.co/100x100" 
+                        alt=""
+                    >
+                    <div>
+                        <h3 class="b-g-l-title">Another blog post</h3>
+                        <p class="b-g-l-description">Learn more about this blog post that i wrote...</p>
+                        <button class="btn b-g-l-btn">
+                            Read more
+                        </button>
+                    </div>
+                </li>
+                <li class="b-g-l-item">
+                    <img 
+                        class="b-g-l-image" 
+                        src="https://placehold.co/100x100" 
+                        alt=""
+                    >
+                    <div>
+                        <h3 class="b-g-l-title">Another blog post</h3>
+                        <p class="b-g-l-description">Learn more about this blog post that i wrote...</p>
+                        <button class="btn b-g-l-btn">
+                            Read more
+                        </button>
+                    </div>
+                </li>
+                <li class="b-g-l-item">
+                    <img 
+                        class="b-g-l-image" 
+                        src="https://placehold.co/100x100" 
+                        alt=""
+                    >
+                    <div>
+                        <h3 class="b-g-l-title">Another blog post</h3>
+                        <p class="b-g-l-description">Learn more about this blog post that i wrote...</p>
+                        <button class="btn b-g-l-btn">
+                            Read more
+                        </button>
+                    </div>
+                </li>
+            </ul>
+            <div class="b-g-pagination">
+                <button class="btn">Prev</button>
+                1/20
+                <button class="btn">Next</button>
+            </div>
+        </section>
+    </main>
+</body>
+</html>

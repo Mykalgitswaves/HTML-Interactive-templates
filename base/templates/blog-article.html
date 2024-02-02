@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog</title>
+    <link rel="stylesheet" href="../styles/base.css">
+    <link rel="stylesheet" href="../styles/themes.css">
+    <link rel="stylesheet" href="../styles/condensed.css">
+</head>
+<body>
+    <!-- component -->
+    <nav class="nav-menu">
+        <label role="button" type="button" class="nav-menu-btn" for="nav-menu-btn">
+            <input
+                role="tab" 
+                aria-selected="true" 
+                aria-controls="tabpanel-id"
+                id="nav-menu-btn"
+                type="checkbox"
+            />
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" fill="currentColor">
+                <path d="M3 6.25a.75.75 0 0 1 .75-.75h13.5a.75.75 0 0 1 0 1.5H3.75A.75.75 0 0 1 3 6.25Zm5 6.063a.75.75 0 0 1 .75-.75h11.5a.75.75 0 0 1 0 1.5H8.75a.75.75 0 0 1-.75-.75Zm0 5.937a.75.75 0 0 1 .75-.75h11.5a.75.75 0 0 1 0 1.5H8.75a.75.75 0 0 1-.75-.75ZM3.75 11a.75.75 0 0 1 .75.75v7a.75.75 0 0 1-1.5 0v-7a.75.75 0 0 1 .75-.75Z"></path>
+            </svg>
+    
+            <div role="menu" class="nav-menu-sidebar">
+                <h3 class="n-m-s--header">Title</h3>
+                <div class="n-m-s--content">
+                    <button 
+                        role="navigation"
+                        class="n-m-s--li"
+                        alt="about"
+                        href="/about"
+                    >
+                        About
+                    </button>
+        
+                    <button 
+                        role="navigation"
+                        class="n-m-s--li"
+                        alt="process"
+                        href="/process"
+                    >
+                        Process
+                    </button>
+                    
+                    <button 
+                        role="navigation"
+                        class="n-m-s--li"
+                        alt="contact"
+                        href="/contact"
+                    >   
+                        Contact
+                    </button>
+                </div>
+            </div>
+        </label>
+    </nav>
+    <main>
+        <!-- component -->
+        <section class="blog-article">
+            <div class="b-a-header">
+                <img class="b-a-header-image" src="https://placehold.co/200x200" alt="">
+                <div class="b-a-header-content">
+                    <h1 class="b-a-header-title">Whats wrong with the world?</h1>
+                    <p class="b-a-header-meta">Written by Crablabs
+                    <span class="date">• <em>Fri, Jan 19th 2024</em></span></p>
+                    <button class="btn b-a-header-back">back</button>
+                </div>
+            </div>
+            <div class="b-a-content">
+                <h3 class="b-a-heading">Some important topic for us to talk about</h3>
+                <p class="b-a-body">Surfing, man. It's this intense dance with the ocean. Picture a morning at the beach – waves crashing, surfers gearing up. They slap some wax on their boards, adjust their leashes, zip up their wetsuits. The salty breeze sets the mood as they paddle out, scanning for the next big wave.</p>
+                <h3 class="b-a-heading">
+                    Surfers, they're like one with their boards.
+                </h3>
+                <p class="b-a-body">
+                     Every move, every shift in weight, it's like a conversation with the ocean. The wave comes, they catch it, ride it, carve through the water. It's a rush, a balancing act on a fiberglass plank.
+                    
+                    It's not just a sport; it's a way of life. Surfers share this unspoken bond, connected by their love for the sea and the pursuit of that perfect wave. They spend hours seeking out different breaks, exploring coastlines, all for the thrill of riding nature's rollercoaster.
+                </p> 
+                <h3 class="b-a-heading">
+                    From the beaches of Hawaii to the coasts of Australia, surfing's a global thing.
+                </h3> <p class="b-a-body">Each spot has its own vibe – from the famous Pipeline to the laid-back waves of Malibu. Surfers are nomads, chasing swells, always on the lookout for the next challenge.
+                    
+                    Day winds down, surfers paddle back in. Sun setting, sky on fire. Sandy, tired, but fulfilled. They leave the beach, salty hair, sandy feet, thinking about the next adventure on the endless canvas of the ocean.
+                 <span class="outro">"It's raw, it's real, and it's the damn beauty of surfing."</span>
+                </p>
+            </div>
+        </section>
+    </main>
+</body>
+</html>
