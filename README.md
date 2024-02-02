@@ -36,3 +36,5 @@ Also provided in this repo is a directory for Contributions. To contribute to th
     |----- ..
 
 The folder should contain styles and templates sub directories. Following the format laid out above and found in our base directory, you can create a pull request for each contribution you wish to make.
+
+Feel free to use this repo as a place to comment on your issues using HTML Interactive, we will be try to be as responsive and helpful as possible!
