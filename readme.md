@@ -3,24 +3,24 @@ We are excited that you may be considering contributing. This read me serves as 
 
 Layout of our repo:
 
-|– Base:
-|---- Styles:
-|-------- Base.css 
-|-------- Condensed.css 
-|-------- Themes.css 
-|---- templates:
-|-------- layoutName.html 
+    |– Base:
+    |---- Styles:
+    |-------- Base.css 
+    |-------- Condensed.css 
+    |-------- Themes.css 
+    |---- templates:
+    |-------- layoutName.html 
 
 Base: contains the existing templates for html interactive, they can be used as an example for contributors looking to start with some code. Specifically, the styles directory may be useful to some developers looking to start with some colors or fonts (copy it into your own pr). Templates contains all relevant html.
 
-|- Contributions
-|--– ExampleUser:
-|------ Styles:
-|---------- Base.css 
-|---------- Condensed.css 
-|---------- Themes.css 
-|------ templates:
-|---------- layoutName.html 
+    |- Contributions
+    |--– ExampleUser:
+    |------ Styles:
+    |---------- Base.css 
+    |---------- Condensed.css 
+    |---------- Themes.css 
+    |------ templates:
+    |---------- layoutName.html 
 
 Also provided in this repo is a directory for Contributions. To contribute to the project, create a subfolder named after with the following convention inside of Contributions/.
 
